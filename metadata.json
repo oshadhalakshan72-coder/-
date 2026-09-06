@@ -1,0 +1,6 @@
+{
+  "name": "AZON LANKA",
+  "description": "AZON LANKA | Your Online Marketplace - Premier Sri Lankan online shopping destination with express islandwide delivery, instant WhatsApp ordering, real-time inventory management, and multi-admin control.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

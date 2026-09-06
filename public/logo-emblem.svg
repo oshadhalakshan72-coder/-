@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="100%" height="100%">
+  <defs>
+    <style>
+      .navy-brand { fill: #0b3664; }
+      .navy-stroke { stroke: #0b3664; fill: none; stroke-linecap: round; stroke-linejoin: round; }
+    </style>
+  </defs>
+
+  <g id="dove-emblem" transform="translate(-10, -20)">
+    <!-- Top Feather Tip 1 -->
+    <path class="navy-brand" d="M 235,165 C 218,125 180,72 135,46 C 127,41 120,49 125,56 C 148,82 172,118 186,155 C 196,180 206,200 216,218 C 228,198 234,180 235,165 Z" />
+    
+    <!-- Feather 2 (Middle) -->
+    <path class="navy-brand" d="M 195,178 C 172,138 142,102 98,88 C 91,85 86,93 91,99 C 112,124 135,160 148,196 C 158,222 172,238 184,248 C 192,224 195,198 195,178 Z" />
+    
+    <!-- Feather 3 (Lower) -->
+    <path class="navy-brand" d="M 166,202 C 142,168 114,140 76,134 C 69,132 65,140 70,146 C 90,172 110,205 125,238 C 136,260 152,274 164,282 C 168,255 168,226 166,202 Z" />
+
+    <!-- Inner Wing Contour lines for depth -->
+    <path class="navy-stroke" stroke-width="7" d="M 168,124 C 188,142 205,168 218,198" />
+    <path class="navy-stroke" stroke-width="6" d="M 132,154 C 150,172 166,196 178,224" />
+
+    <!-- Dove Head, Beak & Crown (Facing Right) -->
+    <path class="navy-brand" d="M 235,165 C 244,152 262,142 284,142 C 298,142 312,148 322,156 C 334,152 352,144 362,140 C 354,152 344,162 334,168 C 324,184 308,198 290,204 C 274,210 258,210 248,206 L 244,188 C 242,178 238,170 235,165 Z" />
+    
+    <!-- Beak -->
+    <path class="navy-brand" d="M 334,152 L 366,140 L 348,164 Z" />
+
+    <!-- Eye (White circular cutout) -->
+    <circle cx="308" cy="162" r="5" fill="#ffffff" />
+    <circle cx="308" cy="162" r="2.5" class="navy-brand" />
+
+    <!-- Tail Feathers (3 Feathers Sweeping Down-Left) -->
+    <path class="navy-brand" d="M 135,258 C 108,272 78,288 66,306 C 62,312 70,318 76,312 C 98,296 128,284 158,278 Z" />
+    <path class="navy-brand" d="M 120,284 C 95,302 72,322 68,338 C 66,344 74,348 80,342 C 100,324 128,312 155,304 Z" />
+    <path class="navy-brand" d="M 115,316 C 96,332 80,350 78,364 C 77,370 85,372 90,366 C 108,350 134,340 160,334 Z" />
+
+    <!-- Lowercase Letter 'a' seamlessly anchored to Dove Breast -->
+    <path class="navy-brand" d="M 290,204 C 265,192 225,194 195,216 C 160,242 155,296 185,330 C 215,362 270,358 300,324 L 300,338 C 300,348 312,352 320,342 L 320,224 C 320,212 308,206 300,212 C 294,216 290,224 290,234 C 276,212 258,204 235,204" />
+    
+    <!-- Right 'a' Vertical Stem with Curved Terminal Foot -->
+    <path class="navy-brand" d="M 296,224 L 296,334 C 296,346 312,352 322,342 C 326,338 332,328 332,320 L 332,224 Z" />
+
+    <!-- Inner 'a' Loop Cutout -->
+    <circle cx="236" cy="276" r="42" fill="#ffffff" />
+
+    <!-- Compass Outer Ring Inside 'a' -->
+    <circle cx="236" cy="276" r="34" class="navy-stroke" stroke-width="3" />
+
+    <!-- 8-Point Navigation Compass Star Inside 'a' -->
+    <g transform="translate(236, 276)">
+      <path class="navy-brand" d="M 0,-34 L 7,-7 L 34,0 L 7,7 L 0,34 L -7,7 L -34,0 L -7,-7 Z" />
+      <path class="navy-brand" d="M 0,-22 L 4.5,-4.5 L 22,0 L 4.5,4.5 L 0,22 L -4.5,4.5 L -22,0 L -4.5,-4.5 Z" transform="rotate(45)" opacity="0.9" />
+      <circle cx="0" cy="0" r="6" fill="#ffffff" />
+      <circle cx="0" cy="0" r="3.5" class="navy-brand" />
+    </g>
+  </g>
+</svg>
